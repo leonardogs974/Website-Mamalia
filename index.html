@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Hewan Mamalia</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <a href="#" id="btn-up" class="btn-up">&#8679;</a>
+    <header>
+        <div class="myTitle">
+            <h1>Contoh Hewan Mamalia</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#deskripsi">Deskripsi</a></li>
+                <li><a href="#ciri-ciri">Ciri-ciri</a></li>
+                <li><a href="#contoh">Contoh Hewan Mamalia</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <aside>
+            <article class="card profile">
+                <figure>
+                    <img src="assets/image/myPhoto.jpg" alt="PhotoProfile" class="photoProfile">
+                </figure>
+
+                <h2>Leonardo G.S</h2>
+                <p style="margin-top: -20px;">Front-End Web Developer</p>
+                <section>
+                    <h3>Biodata</h3>
+                    <table>
+                        <tr>
+                            <th>Nickname</th>
+                            <td>Leo</td>
+                        </tr>
+                        <tr>
+                            <th>TTL</th>
+                            <td>Palembang, 25 April 2000</td>
+                        </tr>
+                        <tr>
+                            <th>Nomor HP</th>
+                            <td>0815-3261-8646</td>
+                        </tr>
+                        <tr>
+                            <th>Email</th>
+                            <td>leonardogs974@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th>Instagram</th>
+                            <td><a href="https://www.instagram.com/leonardo_gs12/" target="_blank">@leonardo_gs12</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>LinkedIn</th>
+                            <td><a href="https://www.linkedin.com/in/leonardo-gs974" target="_blank">Leonardo G.S</a>
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+        </aside>
+
+        <div class="contents">
+            <article class="card deskripsi" id="deskripsi">
+                <h2>Deskripsi Hewan Mamalia</h2>
+                <p>Mamalia adalah jenis hewan yang menyusui, contohnya seperti kucing, sapi, kambing, dan kuda. Hewan
+                    mamalia berdarah panas, sehingga mereka selalu terasa hangat. Sebagian besar mamalia berkembang biak
+                    dengan cara melahirkan, tetapi ada juga yang bertelur. Mamalia memiliki kelenjar susu sebagai sumber
+                    makanan. Sebagian besar mamalia berkembang biak dengan cara melahirkan anak-anaknya, tetapi beberapa
+                    mamalia tidak melahirkan atau bertelur. Mamalia jenis ini disebut dengan monotremata memiliki
+                    kelenjar susu, tetapi tidak memiliki puting. Karenanya, monotremata ini masih digolongkan mamalia.
+                </p>
+            </article>
+
+            <article class="card ciri-ciri" id="ciri-ciri">
+                <h2>Ciri-ciri Hewan Mamalia</h2>
+                <ol>
+                    <li>Punya kelenjar susu.</li>
+                    <li>Punya tulang belakang (Vertebrata).</li>
+                    <li>Punya anggota tubuh untuk bergerak seperti berenang, berlari dan memegang sesuatu.</li>
+                    <li>Punya rambut untuk menutupi seluruh tubuhnya.</li>
+                    <li>Punya kuku atau cakar dibagian jarinya. Kuku atau cakar ini berguna untuk memanjat atau memegang
+                        makanan.</li>
+                    <li>Punya alat pernapasan paru-paru.</li>
+                </ol>
+            </article>
+
+            <article class="card contoh" id="contoh">
+                <h2>Beberapa Contoh Hewan Mamalia</h2>
+                <div class="container">
+                    <div class="flex-row">
+                        <div class="flex-column">
+                            <figure>
+                                <img src="assets/image/kucing.jpg" alt="Gambar Kucing" width="150px">
+                                <figcaption>Gambar Kucing</figcaption>
+                            </figure>
+                            <button id="buttonKucing" class="button" onclick="playSoundCat()">Suara</button>
+                            <audio id="suaraKucing" autoplay="autoplay">
+                                <source src="assets/audio/kucing.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                        <div class="flex-column">
+                            <figure>
+                                <img src="assets/image/kambing.jpg" alt="Gambar Kambing" width="150px">
+                                <figcaption>Gambar Kambing</figcaption>
+                            </figure>
+                            <button id="buttonKambing" class="button" onclick="playSoundGoat()">Suara</button>
+                            <audio id="suaraKambing" autoplay="autoplay">
+                                <source src="assets/audio/kambing.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                        <div class="flex-column">
+                            <figure>
+                                <img src="assets/image/kuda.jpg" alt="Gambar Kuda" width="150px">
+                                <figcaption>Gambar Kuda</figcaption>
+                            </figure>
+                            <button id="buttonKuda" class="button" onclick="playSoundHorse()">Suara</button>
+                            <audio id="suaraKuda" autoplay="autoplay">
+                                <source src="assets/audio/kuda.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+                <p>Note : Tekan Button Suara Untuk Mengeluarkan Suara</p>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <p>Created By Leonardo GS, learn with Dicoding</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
